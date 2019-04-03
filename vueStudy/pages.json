@@ -1,0 +1,42 @@
+{
+	"pages": [
+		{
+			"path": "/login",
+			"name": "login",
+			"meta": {
+				"title": "登录"
+			}
+		},
+		{
+			"path": "/home",
+			"name": "home",
+			"meta": {
+				"title": "主页"
+			},
+			"redirect": "/home/page1",
+			"children": [
+				{
+					"path": "/nav1/page1",
+					"name": "page1",
+					"meta": {
+						"title": "首页Page1"
+					}
+				},
+				{
+					"path": "/nav1/page2",
+					"name": "page2",
+					"meta": {
+						"title": "首页Page2"
+					}
+				}
+			]
+		},
+		{
+			"path": "/about",
+			"name": "about",
+			"meta": {
+				"title": "关于"
+			}
+		}
+	]
+}
