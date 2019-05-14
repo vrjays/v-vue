@@ -127,6 +127,4 @@ this.$router.push('/home/page1');
 </pre>
 <p>昨天扒文档不细心，走的/home/nav1/page1,结果白茫茫，特此声明一下</p>
 
-<h1>如果这个东西对您有用，star一下吧，给新人一点鼓励，我会加油的！！！up!up!up!</h1>
-<h1>非常感谢！</h1>
 
